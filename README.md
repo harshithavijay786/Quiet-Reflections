@@ -3,3 +3,6 @@ QUIET REFLECTIONS:
 
 ERD:
     ![ERD Diagram](/assets/ERD.PNG)
+
+Relations:
+    ![Relations](/assets/Relations.jpg)

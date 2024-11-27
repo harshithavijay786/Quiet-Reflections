@@ -9,5 +9,5 @@ function post(event) {
 
     const postContent = document.getElementById("post-content").value;
 
-    console.log(postContent);
+    console.log(postContent); 
 }

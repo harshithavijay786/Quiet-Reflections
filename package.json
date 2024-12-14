@@ -1,0 +1,20 @@
+{
+  "name": "quiet-reflections",
+  "version": "1.0.0",
+  "description": "QUIET REFLECTIONS:\r     \"Quiet Reflections\" is a serene journal app designed to inspire mindfulness and personal growth. It offers a calming, intuitive space for users to reflect on daily thoughts, set personal goals, and track emotional well-being. Perfect for quiet moments, it encourages consistent journaling to cultivate inner peace and clarity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

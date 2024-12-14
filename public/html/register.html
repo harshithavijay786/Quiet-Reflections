@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login - My Quiet Reflections</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Register - My Quiet Reflections</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
   <header>
     <nav>
-      <a href="index.html">Home</a>
+      <a href="home.html">Home</a>
       <a href="register.html">Register</a>
       <a href="login.html">Login</a>
       <a href="post.html">Create Post</a>
@@ -17,17 +17,24 @@
   </header>
 
   <div class="container">
-    <h2>Login</h2>
-    <form id="login-form" action="#" method="POST">
+    <h2>Register</h2>
+    <form id="register-form" action="#" method="POST">
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" required><br>
+
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" required><br>
+
       <label for="username">Username or Email:</label>
       <input type="text" id="username" name="username" required><br>
 
       <label for="password">Password:</label>
       <input type="password" id="password" name="password" required><br>
 
-      <input type="submit" value="Login">
+      <input type="submit" value="Register">
     </form>
   </div>
-  <script src="./js/login.js"></script>
+
+  <script src="./js/register.js"></script>
 </body>
 </html>

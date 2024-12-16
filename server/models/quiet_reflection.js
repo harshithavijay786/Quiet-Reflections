@@ -28,9 +28,9 @@ async function getPost(post) {
 async function createPost(post) {
   let sql = `
     INSERT INTO quiet_reflection (notes, user_id)
-    VALUES("${user.notes}", "${user.userId}"");
+    VALUES("${post.notes}", ${post.userId});
   `;
-  return post;
+  return con.query(sql);
 }
 
 // UPDATE
